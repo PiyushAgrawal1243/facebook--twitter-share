@@ -5,12 +5,12 @@ import './style.css';
 const appDiv = document.getElementById('app');
 
 const fb = document.getElementById('fb');
-fb.addEventListener('click', shareonFacebook);
+fb.addEventListener('click', shareOnFacebook);
 
 const tweet = document.getElementById('twitter');
 tweet.addEventListener('click', shareOnTwitter);
 
-function shareonFacebook() {
+function shareOnFacebook() {
   const navUrl =
     'https://www.facebook.com/sharer/sharer.php?u=' +
     'https://github.com/knoldus/angular-facebook-twitter.git';
